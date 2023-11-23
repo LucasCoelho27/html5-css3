@@ -1,0 +1,71 @@
+@charset "UTF-8"
+
+body{
+    background-color: rgb(104, 102, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px 0px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px 0px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+nav{
+    background-color: rgb(189, 175, 154);
+    padding: 3px;
+    text-align: center;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.253);
+    border-radius: 20px;
+    
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+article{
+    background-color: blanchedalmond;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+}
+article > aside{
+    background-color: rgb(189, 175, 154);
+    border-radius: 10px;
+    text-align: center;            
+}
+h1{
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.253);
+}
+h2{
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.253);
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
