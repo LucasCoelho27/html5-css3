@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }      
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+
+    <!--
+        ANATOMIA DE TABELAS GRANDES
+
+        Table
+           THEAD
+              TR, TD, TH
+
+           TBODY
+              TR, TD, TH
+
+           TFOOT
+              TR, TD, TH
+    -->
+
+    <Table>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td class="num">00 000 000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habítantes</th>
+                <td class="num">000 000 000</td>
+            </tr>
+
+        </tfoot>
+    </Table>
+    
+</body>
+</html>
